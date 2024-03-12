@@ -127,7 +127,7 @@
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
     behaviors {
-        hm: homerow_mods {
+        hmr: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             bindings = <&kp>, <&kp>;

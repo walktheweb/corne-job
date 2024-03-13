@@ -137,6 +137,16 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        hlt: hold_and_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD-AND-TAB";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {

@@ -138,9 +138,9 @@
             flavor = "tap-preferred";
         };
 
-        hlt: hold_and_tap {
+        hlt: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD-AND-TAB";
+            label = "HOMEROW_MODS";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;

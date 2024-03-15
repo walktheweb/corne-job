@@ -183,6 +183,13 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        td_q: td_q {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_Q";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&none>, <&kp LA(LC(NUMBER_1))>;
+        };
     };
 
     macros {
@@ -239,6 +246,15 @@
 &trans  &kp A  &kp S         &kp D             &kp F         &kp G          &kp H        &kp J                     &kp K              &kp L    &kp SEMICOLON  &trans
 &trans  &kp Z  &hlt X LC(X)  &hlt C LC(X)      &hlt V LC(V)  &kp B          &kp N        &kp M                     &kp COMMA          &kp DOT  &kp FSLH       &trans
                              &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 SPACE    &lt 1 ENTER  &mt LEFT_SHIFT BACKSPACE  &mt RIGHT_ALT ESC
+            >;
+        };
+
+        ahk_layer {
+            bindings = <
+&trans  &kp LA(LC(NUMBER_1))  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };

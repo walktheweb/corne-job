@@ -187,15 +187,5 @@
                                     &trans        &trans        &trans            &trans  &trans  &trans
             >;
         };
-
-        qwerty_layer {
-            bindings = <
-&trans  &kp Q         &kp W         &kp E             &kp R         &kp T              &kp Y             &kp U                     &kp I              &kp O         &kp P                  &trans
-&trans  &kp A         &kp S         &kp D             &kp F         &kp G              &kp H             &kp J                     &kp K              &kp L         &kp SEMICOLON          &trans
-&trans  &kp Z         &hlt X LC(X)  &hlt C LC(X)      &hlt V LC(V)  &kp B              &kp N             &kp M                     &kp COMMA          &kp DOT       &kp FSLH               &trans
-                                    &trans        &trans        &trans            &trans  &trans  &trans
-            >;
-        };
-
     };
 };

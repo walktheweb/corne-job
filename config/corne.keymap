@@ -64,7 +64,9 @@
             bindings = <&kp DELETE>;
             key-positions = <9 10>;
         };
+
         // Single keys
+
         exclm {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 13>;
@@ -114,7 +116,9 @@
             bindings = <&kp RPAR>;
             key-positions = <10 22>;
         };
+
         // System keys
+
         sys_reset_l {
             bindings = <&sys_reset>;
             key-positions = <25 26 27>;
@@ -138,7 +142,9 @@
             key-positions = <30 31 32>;
             layers = <3>;
         };
+
         // Layers
+
         combo_to_qwerty_layer {
             bindings = <&tog 0>;
             key-positions = <36 37 40 41>;
@@ -176,6 +182,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
+        };
+    };
+
+    macros {
+        ctrlalt1: ctrlalt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(KP_NUMBER_1))>;
+            label = "CTRLALT";
         };
     };
 

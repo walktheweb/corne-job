@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  * https://nickcoutsos.github.io/keymap-editor/
+ * https://github.com/caksoylar/keymap-drawer
  */
 
 #include <behaviors.dtsi>
@@ -63,7 +64,7 @@
             bindings = <&kp DELETE>;
             key-positions = <9 10>;
         };
-
+        // Single keys
         exclm {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 13>;
@@ -113,7 +114,31 @@
             bindings = <&kp RPAR>;
             key-positions = <10 22>;
         };
+        // System keys
+        sys_reset_l {
+            bindings = <&sys_reset>;
+            key-positions = <25 26 27>;
+            layers = <3>;
+        };
 
+        sys_reset_r {
+            bindings = <&sys_reset>;
+            key-positions = <32 33 34>;
+            layers = <3>;
+        };
+
+        bootloader_l {
+            bindings = <&bootloader>;
+            key-positions = <27 28 29>;
+            layers = <3>;
+        };
+
+        bootloader_r {
+            bindings = <&bootloader>;
+            key-positions = <30 31 32>;
+            layers = <3>;
+        };
+        // Layers
         combo_to_qwerty_layer {
             bindings = <&tog 0>;
             key-positions = <36 37 40 41>;

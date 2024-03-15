@@ -123,18 +123,12 @@
             bindings = <&mo 3>;
             key-positions = <36 37>;
         };
-
-        ComboLShift {
-            bindings = <&none>;
-            key-positions = <13 14>;
-            layers = <4>;
-        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
     behaviors {
-        hrm: homerow_mods {
+        hmr: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             bindings = <&kp>, <&kp>;
@@ -161,7 +155,7 @@
         qwerty_layer {
             bindings = <
 &trans  &kp Q         &kp W         &kp E             &kp R         &kp T              &kp Y             &kp U                     &kp I              &kp O         &kp P                  &trans
-&trans  &hrm LSHFT A  &hrm LCTRL S  &hrm LEFT_ALT D   &kp F         &hrm LEFT_WIN G    &hrm RIGHT_WIN H  &kp J                     &hrm RIGHT_ALT K   &hrm RCTRL L  &hrm RSHIFT SEMICOLON  &trans
+&trans  &hmr LSHFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &hmr LEFT_WIN G    &hmr RIGHT_WIN H  &kp J                     &hmr RIGHT_ALT K   &hmr RCTRL L  &hmr RSHIFT SEMICOLON  &trans
 &trans  &kp Z         &hlt X LC(X)  &hlt C LC(X)      &hlt V LC(V)  &kp B              &kp N             &kp M                     &kp COMMA          &kp DOT       &kp FSLH               &trans
                                     &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 SPACE        &lt 1 ENTER       &mt LEFT_SHIFT BACKSPACE  &mt RIGHT_ALT ESC
             >;
@@ -191,15 +185,6 @@
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &none   &none   &none   &none   &trans
 &trans  &bootloader   &sys_reset    &none         &bt BT_CLR    &bt BT_CLR_ALL    &none   &trans  &trans  &trans  &trans  &trans
                                     &trans        &trans        &trans            &trans  &trans  &trans
-            >;
-        };
-
-        layer_combo {
-            bindings = <
-&trans  &kp Q         &kp W         &kp E             &kp R         &kp T              &kp Y             &kp U      &kp I              &kp O         &kp P                  &trans
-&trans  &kp A         &kp S         &kp D             &kp F         &kp G              &kp H             &kp J      &kp K              &kp L         &hkp SEMICOLON         &trans
-&trans  &kp Z         &hlt X LC(X)  &hlt C LC(X)      &hlt V LC(V)  &kp B              &kp N             &kp M      &kp COMMA          &kp DOT       &kp FSLH               &trans
-                                    &trans            &trans        &trans             &trans            &trans     &trans
             >;
         };
     };

@@ -30,7 +30,7 @@
 
         combo_bksp {
             timeout-ms = <50>;
-            key-positions = <10 9>;
+            key-positions = <9 8>;
             bindings = <&kp BACKSPACE>;
         };
 
@@ -46,7 +46,7 @@
 
         combo_delete {
             bindings = <&kp DELETE>;
-            key-positions = <21 22>;
+            key-positions = <9 10>;
         };
 
         combo_rshift {
@@ -104,7 +104,7 @@
             key-positions = <10 22>;
         };
 
-        layout_switch {
+        combo_to_qwerty_layer {
             bindings = <&tog 0>;
             key-positions = <36 37 40 41>;
         };
@@ -121,7 +121,7 @@
             layers = <3>;
         };
 
-        system_layer_combo {
+        combo_mo_sys_layer {
             bindings = <&mo 3>;
             key-positions = <36 37>;
         };
@@ -134,6 +134,11 @@
         lsemicolon_rshift {
             bindings = <&kp RSHIFT>;
             key-positions = <21 22>;
+        };
+
+        combo_to_qwerty_combo_layer {
+            bindings = <&tog 4>;
+            key-positions = <40 41>;
         };
     };
 

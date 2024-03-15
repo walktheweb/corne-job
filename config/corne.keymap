@@ -123,15 +123,6 @@
             bindings = <&mo 3>;
             key-positions = <36 37>;
         };
-<<<<<<< HEAD
-=======
-
-        ComboLShift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <13 14>;
-            layers = <4>;
-        };
->>>>>>> 32123220461c3286b9dde906aacad30c1c112180
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -196,17 +187,5 @@
                                     &trans        &trans        &trans            &trans  &trans  &trans
             >;
         };
-<<<<<<< HEAD
-=======
-
-        layer_combo {
-            bindings = <
-&trans  &kp Q  &kp W         &kp E         &kp R         &kp T     &kp Y   &kp U   &kp I      &kp O    &kp P           &trans
-&trans  &kp A  &kp S         &kp D         &kp F         &kp G     &kp H   &kp J   &kp K      &kp L    &hkp SEMICOLON  &trans
-&trans  &kp Z  &hlt X LC(X)  &hlt C LC(X)  &hlt V LC(V)  &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH        &trans
-                             &trans        &trans        &trans    &trans  &trans  &trans
-            >;
-        };
->>>>>>> 32123220461c3286b9dde906aacad30c1c112180
     };
 };

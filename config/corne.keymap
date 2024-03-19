@@ -35,11 +35,6 @@
             bindings = <&kp BACKSPACE>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 14>;
-        };
-
         as_lshift {
             bindings = <&kp LSHIFT>;
             key-positions = <13 14>;
@@ -161,7 +156,7 @@
 
         combo_rctrl {
             bindings = <&kp RCTRL>;
-            key-positions = <22 21>;
+            key-positions = <21 20>;
         };
 
         combo_lalt {

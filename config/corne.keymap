@@ -64,6 +64,7 @@
             bindings = <&kp DELETE>;
             key-positions = <9 10>;
         };
+
         exclm {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 13>;
@@ -113,6 +114,7 @@
             bindings = <&kp RPAR>;
             key-positions = <10 22>;
         };
+
         sys_reset_l {
             bindings = <&sys_reset>;
             key-positions = <25 26 27>;
@@ -136,6 +138,7 @@
             key-positions = <30 31 32>;
             layers = <3>;
         };
+
         combo_to_qwerty_layer {
             bindings = <&tog 0>;
             key-positions = <36 37 40 41>;
@@ -149,6 +152,16 @@
         combo_mo_sys_layer {
             bindings = <&mo 3>;
             key-positions = <36 37>;
+        };
+
+        Ditto {
+            bindings = <&kp LC(GRAVE)>;
+            key-positions = <3 16>;
+        };
+
+        MagicWand {
+            bindings = <&kp GRAVE>;
+            key-positions = <19 8>;
         };
     };
 
@@ -179,7 +192,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_Q";
             #binding-cells = <0>;
-            bindings = <&kp Q>, <&none>, <&kp LA(LC(NUMBER_1))>;
+            bindings = <&kp Q>, <&none>, <&kp LA(LC(NUMBER_6))>;
         };
     };
 
@@ -197,10 +210,10 @@
 
         qwerty_layer {
             bindings = <
-&trans  &td_q         &kp W         &kp E             &kp R         &kp T              &kp Y             &kp U                     &kp I              &kp O         &kp P                  &trans
-&trans  &hmr LSHFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &hmr LEFT_WIN G    &hmr RIGHT_WIN H  &kp J                     &hmr RIGHT_ALT K   &hmr RCTRL L  &hmr RSHIFT SEMICOLON  &trans
-&trans  &kp Z         &hlt X LC(X)  &hlt C LC(X)      &hlt V LC(V)  &kp B              &kp N             &kp M                     &kp COMMA          &kp DOT       &kp FSLH               &trans
-                                    &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 SPACE        &lt 1 ENTER       &mt LEFT_SHIFT BACKSPACE  &mt RIGHT_ALT ESC
+&trans  &td_q         &kp W         &kp E             &kp R         &kp T              &kp Y                &kp U        &kp I              &kp O         &kp P                  &trans
+&trans  &hmr LSHFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &hmr LEFT_WIN G    &hmr RIGHT_WIN H     &kp J        &hmr RIGHT_ALT K   &hmr RCTRL L  &hmr RSHIFT SEMICOLON  &trans
+&trans  &kp Z         &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B              &kp N                &kp M        &kp COMMA          &kp DOT       &kp FSLH               &trans
+                                    &kp LEFT_CONTROL  &lt 1 SPACE   &lt 2 SPACE        &lt 1 LC(BACKSPACE)  &lt 2 SPACE  &mt RIGHT_ALT ESC
             >;
         };
 

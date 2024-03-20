@@ -171,22 +171,12 @@
 
         combo_win {
             bindings = <&kp LCMD>;
-            key-positions = <28 29>;
+            key-positions = <29 37>;
         };
 
         combo_appkey {
             bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <30 31>;
-        };
-
-        Ditto1 {
-            bindings = <&kp LC(GRAVE)>;
-            key-positions = <4 17>;
-        };
-
-        MagicWand1 {
-            bindings = <&kp GRAVE>;
-            key-positions = <7 18>;
         };
 
         combo_2_PgUp {
@@ -199,6 +189,11 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <7 20>;
             layers = <1>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <25 26>;
         };
     };
 

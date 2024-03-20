@@ -287,10 +287,10 @@
 
         ahk_layer {
             bindings = <
-&trans  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                &trans                &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                &trans                &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                                    &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(TAB)           &trans                &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(W)             &kp LG(T)             &kp LG(T)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                    &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
     };

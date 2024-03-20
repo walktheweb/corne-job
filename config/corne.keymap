@@ -131,7 +131,7 @@
         };
 
         combo_to_qwerty_combo_layer {
-            bindings = <&tog 4>;
+            bindings = <&tog 5>;
             key-positions = <40 41>;
         };
 
@@ -192,9 +192,14 @@
             key-positions = <25 26>;
         };
 
-        combo_layer_5 {
-            bindings = <&lt 5 K_CONTEXT_MENU>;
+        combo_l_ak_Layer {
+            bindings = <&lt 3 K_CONTEXT_MENU>;
             key-positions = <39 40>;
+        };
+
+        combo_r_ak_Layer {
+            bindings = <&lt 3 LCTRL>;
+            key-positions = <37 38>;
         };
     };
 
@@ -268,12 +273,12 @@
             >;
         };
 
-        sys_layer {
+        ahk_layer {
             bindings = <
-&trans  &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &none   &none   &none   &none   &trans
-&trans  &bootloader   &sys_reset    &none         &bt BT_CLR    &bt BT_CLR_ALL    &none   &trans  &trans  &trans  &trans  &trans
-                                    &trans        &trans        &trans            &trans  &trans  &trans
+&trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))  &kp LA(LC(N8))  &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))     &trans
+&trans  &kp LC(TAB)           &trans                &trans                &trans                &trans                  &trans                &trans          &trans          &trans                &kp LA(LC(MINUS))  &trans
+&trans  &kp LC(W)             &kp LG(T)             &kp LG(T)             &trans                &trans                  &trans                &trans          &trans          &trans                &kp LA(LC(EQUAL))  &trans
+                                                    &trans                &trans                &trans                  &trans                &trans          &trans
             >;
         };
 
@@ -286,12 +291,12 @@
             >;
         };
 
-        ahk_layer {
+        sys_layer {
             bindings = <
-&trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))  &kp LA(LC(N8))  &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))     &trans
-&trans  &kp LC(TAB)           &trans                &trans                &trans                &trans                  &trans                &trans          &trans          &trans                &kp LA(LC(MINUS))  &trans
-&trans  &kp LC(W)             &kp LG(T)             &kp LG(T)             &trans                &trans                  &trans                &trans          &trans          &trans                &kp LA(LC(EQUAL))  &trans
-                                                    &trans                &trans                &trans                  &trans                &trans          &trans
+&trans  &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &none   &none   &none   &none   &trans
+&trans  &bootloader   &sys_reset    &none         &bt BT_CLR    &bt BT_CLR_ALL    &none   &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans        &trans            &trans  &trans  &trans
             >;
         };
     };

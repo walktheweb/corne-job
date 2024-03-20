@@ -147,7 +147,7 @@
 
         MagicWand {
             bindings = <&kp GRAVE>;
-            key-positions = <3 4>;
+            key-positions = <15 4>;
         };
 
         combo_lctrl {
@@ -248,10 +248,10 @@
 
         qwerty_layer {
             bindings = <
-&trans  &kp Q  &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U        &kp I              &kp O    &kp P          &trans
-&trans  &kp A  &kp S         &kp D             &kp F         &kp G          &kp H        &kp J        &kp K              &kp L    &kp SEMICOLON  &trans
-&trans  &kp Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M        &kp COMMA          &kp DOT  &kp FSLH       &trans
-                             &kp LEFT_CONTROL  &lt 1 SPACE   &lt 2 ENTER    &lt 2 ENTER  &lt 1 SPACE  &mt RIGHT_ALT ESC
+&trans  &kp Q              &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U        &kp I              &kp O    &kp P          &trans
+&trans  &kp A              &kp S         &kp D             &kp F         &kp G          &kp H        &kp J        &kp K              &kp L    &kp SEMICOLON  &trans
+&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M        &kp COMMA          &kp DOT  &kp FSLH       &trans
+                                         &kp LEFT_CONTROL  &lt 1 SPACE   &lt 2 ENTER    &lt 2 ENTER  &lt 1 SPACE  &mt RIGHT_ALT ESC
             >;
         };
 

@@ -147,7 +147,7 @@
 
         MagicWand {
             bindings = <&kp GRAVE>;
-            key-positions = <19 8>;
+            key-positions = <3 4>;
         };
 
         combo_lctrl {

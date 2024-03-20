@@ -276,8 +276,8 @@
         ahk_layer {
             bindings = <
 &trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))    &kp LA(LC(N8))        &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))     &trans
-&trans  &kp LC(TAB)           &none                 &trans                &trans                &trans                  &trans                &trans            &kp LA(LC(UP_ARROW))  &trans                &kp LA(LC(MINUS))  &trans
-&trans  &kp LC(W)             &kp LG(T)             &kp LG(T)             &trans                &trans                  &trans                &kp LG(LS(LEFT))  &kp LA(LC(DOWN))      &kp LS(LG(RIGHT))     &kp LA(LC(EQUAL))  &trans
+&trans  &kp LC(TAB)           &none                 &trans                &trans                &trans                  &kp LG(T)             &trans            &kp LA(LC(UP_ARROW))  &trans                &kp LA(LC(MINUS))  &trans
+&trans  &kp LC(W)             &kp LG(F4)            &kp LG(T)             &trans                &trans                  &kp LG(F4)            &kp LG(LS(LEFT))  &kp LA(LC(DOWN))      &kp LS(LG(RIGHT))     &kp LA(LC(EQUAL))  &trans
                                                     &trans                &trans                &trans                  &trans                &trans            &trans
             >;
         };

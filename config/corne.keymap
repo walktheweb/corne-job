@@ -31,7 +31,7 @@
 
         combo_bksp {
             timeout-ms = <50>;
-            key-positions = <9 8>;
+            key-positions = <8 9>;
             bindings = <&kp BACKSPACE>;
         };
 
@@ -167,6 +167,16 @@
         combo_ralt {
             bindings = <&kp RALT>;
             key-positions = <19 20>;
+        };
+
+        combo_win {
+            bindings = <&kp LCMD>;
+            key-positions = <28 29>;
+        };
+
+        combo_appkey {
+            bindings = <&kp K_CONTEXT_MENU>;
+            key-positions = <30 31>;
         };
     };
 

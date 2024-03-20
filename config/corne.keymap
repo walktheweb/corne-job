@@ -188,6 +188,18 @@
             bindings = <&kp GRAVE>;
             key-positions = <7 18>;
         };
+
+        combo_2_PgUp {
+            bindings = <&kp PG_UP>;
+            key-positions = <19 8>;
+            layers = <1>;
+        };
+
+        combo_2_PgDn {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <7 20>;
+            layers = <1>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -244,9 +256,9 @@
 
         numsym_layer {
             bindings = <
-&trans  &kp N1        &kp N2     &kp N3   &kp N4   &kp N5          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans     &trans
-&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp ASTERISK      &kp LEFT           &kp RIGHT       &kp DOWN         &kp UP     &trans
-&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp GREATER_THAN   &kp MINUS       &kp EQUAL        &kp SLASH  &trans
+&trans  &kp N1        &kp N2     &kp N3   &kp N4   &kp N5          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp HOME  &trans
+&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp ASTERISK      &kp LEFT           &kp RIGHT       &kp DOWN         &kp UP    &trans
+&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp GREATER_THAN   &kp MINUS       &kp EQUAL        &kp END   &trans
                                  &trans   &trans   &trans          &trans            &trans             &trans
             >;
         };

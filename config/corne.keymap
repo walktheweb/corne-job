@@ -147,7 +147,7 @@
 
         MagicWand {
             bindings = <&kp GRAVE>;
-            key-positions = <15 4>;
+            key-positions = <16 37>;
         };
 
         combo_lctrl {
@@ -177,13 +177,13 @@
 
         combo_2_PgUp {
             bindings = <&kp PG_UP>;
-            key-positions = <19 8>;
+            key-positions = <31 20>;
             layers = <1>;
         };
 
         combo_2_PgDn {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <7 20>;
+            key-positions = <20 33>;
             layers = <1>;
         };
 
@@ -263,8 +263,8 @@
         numsym_layer {
             bindings = <
 &trans  &kp N1        &kp N2     &kp N3   &kp N4   &kp N5          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp RIGHT_BRACE  &kp HOME  &trans
-&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp ASTERISK      &kp LEFT           &kp DOWN      &kp RIGHT        &kp UP    &trans
-&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp GREATER_THAN   &kp MINUS     &kp EQUAL        &kp END   &trans
+&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp ASTERISK      &kp LEFT           &kp UP_ARROW  &kp RIGHT        &kp HOME  &trans
+&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp LEFT           &kp DOWN      &kp RIGHT        &kp END   &trans
                                  &trans   &trans   &trans          &trans            &trans             &trans
             >;
         };

@@ -216,6 +216,11 @@
             bindings = <&ctrlalt1>;
             key-positions = <19 20 21>;
         };
+
+        combo_app_context {
+            bindings = <&kp K_CONTEXT_MENU>;
+            key-positions = <30 31>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

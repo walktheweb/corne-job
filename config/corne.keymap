@@ -251,6 +251,14 @@
             flavor = "tap-preferred";
         };
 
+        bspc_del: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
+        };
+
         td_q: td_q {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_Q";

@@ -211,6 +211,11 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <16 19 20>;
         };
+
+        combo_ctrl+alt {
+            bindings = <&ctrlalt1>;
+            key-positions = <19 20 21>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

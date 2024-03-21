@@ -221,6 +221,11 @@
             bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <30 31>;
         };
+
+        combo_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <35 23>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

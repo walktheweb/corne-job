@@ -209,12 +209,12 @@
 
         combo_underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <19 20 21>;
+            key-positions = <16 17>;
         };
 
         combo_ctrl+alt {
             bindings = <&ctrlalt1>;
-            key-positions = <19 20 21>;
+            key-positions = <19 18>;
         };
 
         combo_app_context {
@@ -263,7 +263,12 @@
         ctrlalt1: ctrlalt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LEFT_ALT)) &kp LCTRL>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp LEFT_CONTROL>,
+                <&macro_release>,
+                <&kp LEFT_ALT &kp LEFT_CONTROL>;
+
             label = "CTRLALT";
         };
     };

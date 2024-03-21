@@ -206,6 +206,11 @@
             bindings = <&tog 4>;
             key-positions = <36 37 38 29>;
         };
+
+        combo_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <16 19 20>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

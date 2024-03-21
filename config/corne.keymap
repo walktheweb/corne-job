@@ -248,7 +248,7 @@
         ctrlalt1: ctrlalt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(KP_NUMBER_1))>;
+            bindings = <&kp LA(LC(LEFT_ALT)) &kp LCTRL>;
             label = "CTRLALT";
         };
     };

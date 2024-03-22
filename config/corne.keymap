@@ -209,7 +209,7 @@
 
         combo_underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <16 17>;
+            key-positions = <28 29>;
         };
 
         combo_ctrl+alt {
@@ -307,7 +307,7 @@
             bindings = <
 &trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))    &kp LA(LC(N8))        &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))          &trans
 &trans  &kp LC(TAB)           &none                 &trans                &trans                &trans                  &kp LG(T)             &trans            &kp LA(LC(UP_ARROW))  &trans                &kp LA(LC(MINUS))       &trans
-&trans  &kp LC(W)             &kp LG(F4)            &kp LG(T)             &trans                &trans                  &kp RG(F4)            &kp LG(LS(LEFT))  &kp LA(LC(DOWN))      &kp LS(LG(RIGHT))     &hmr RIGHT_SHIFT SLASH  &trans
+&trans  &kp LC(W)             &kp LG(F4)            &kp LG(T)             &trans                &trans                  &kp LA(F4)            &kp LG(LS(LEFT))  &kp LA(LC(DOWN))      &kp LS(LG(RIGHT))     &hmr RIGHT_SHIFT SLASH  &trans
                                                     &trans                &trans                &trans                  &trans                &trans            &trans
             >;
         };

@@ -209,7 +209,12 @@
 
         combo_underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <28 29>;
+            key-positions = <16 17>;
+        };
+
+        combo_ctrl+alt {
+            bindings = <&ctrlalt1>;
+            key-positions = <19 18>;
         };
 
         combo_app_context {
@@ -254,15 +259,29 @@
         };
     };
 
+    macros {
+        ctrlalt1: ctrlalt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp LEFT_CONTROL>,
+                <&macro_release>,
+                <&kp LEFT_ALT &kp LEFT_CONTROL>;
+
+            label = "CTRLALT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         qwerty_layer {
             bindings = <
-&trans  &kp Q              &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U        &kp I          &kp O    &kp P              &trans
-&trans  &kp A              &kp S         &kp D             &kp F         &kp G          &kp H        &kp J        &kp K          &kt L    &kp SEMICOLON      &trans
-&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M        &kp COMMA      &kp DOT  &hmr RSHIFT SLASH  &trans
-                                         &kp LEFT_CONTROL  &lt 1 SPACE   &lt 2 ENTER    &lt 2 ENTER  &lt 1 SPACE  &kp RIGHT_ALT
+&trans  &kp Q              &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U        &kp I              &kp O    &kp P              &trans
+&trans  &kp A              &kp S         &kp D             &kp F         &kp G          &kp H        &kp J        &kp K              &kp L    &kp SEMICOLON      &trans
+&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M        &kp COMMA          &kp DOT  &hmr RSHIFT SLASH  &trans
+                                         &kp LEFT_CONTROL  &lt 1 SPACE   &lt 2 ENTER    &lt 2 ENTER  &lt 1 SPACE  &mt RIGHT_ALT ESC
             >;
         };
 
@@ -288,14 +307,14 @@
             bindings = <
 &trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))    &kp LA(LC(N8))        &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))          &trans
 &trans  &kp LC(TAB)           &none                 &trans                &trans                &trans                  &kp LG(T)             &trans            &kp LA(LC(UP_ARROW))  &trans                &kp LA(LC(MINUS))       &trans
-&trans  &kp LC(W)             &kp LG(F4)            &kp LG(T)             &trans                &trans                  &kp LA(F4)            &kp LG(LS(LEFT))  &kp LA(LC(DOWN))      &kp LS(LG(RIGHT))     &hmr RIGHT_SHIFT SLASH  &trans
+&trans  &kp LC(W)             &kp LG(F4)            &kp LG(T)             &trans                &trans                  &kp RG(F4)            &kp LG(LS(LEFT))  &kp LA(LC(DOWN))      &kp LS(LG(RIGHT))     &hmr RIGHT_SHIFT SLASH  &trans
                                                     &trans                &trans                &trans                  &trans                &trans            &trans
             >;
         };
 
         sys_layer {
             bindings = <
-&trans  &kp GRAVE     &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans                &trans
+&trans  &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans                &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &none   &none   &none   &tog 0                &trans
 &trans  &bootloader   &sys_reset    &none         &bt BT_CLR    &bt BT_CLR_ALL    &none   &trans  &trans  &trans  &kp LA(LC(NUMBER_3))  &trans
                                     &trans        &trans        &trans            &trans  &trans  &trans

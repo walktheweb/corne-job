@@ -33,7 +33,7 @@
 
         combo_bksp {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
             bindings = <&kp BACKSPACE>;
         };
 
@@ -49,7 +49,7 @@
 
         combo_delete {
             bindings = <&kp DELETE>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
         };
 
         exclm {

@@ -212,11 +212,6 @@
             key-positions = <28 29>;
         };
 
-        combo_ctrl+alt {
-            bindings = <&ctrlalt1>;
-            key-positions = <19 18>;
-        };
-
         combo_app_context {
             bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <30 31>;

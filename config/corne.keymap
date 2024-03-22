@@ -258,10 +258,10 @@
 
         qwerty_layer {
             bindings = <
-&trans  &kp Q              &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U         &kp I                 &kp O         &kp P                       &trans
-&trans  &hmr LEFT_SHIFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &kp G          &kp H        &hmr RC(C) J  &hmr RIGHT_ALT K      &hmr RCTRL L  &hmr RIGHT_SHIFT SEMICOLON  &trans
-&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M         &kp COMMA             &kp DOT       &hmr RSHIFT SLASH           &trans
-                                         &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 ENTER    &lt 1 ENTER  &lt 2 SPACE   &lt 3 K_CONTEXT_MENU
+&trans  &kp Q              &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U        &kp I                 &kp O         &kp P                       &trans
+&trans  &hmr LEFT_SHIFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &kp G          &kp H        &kp J        &kp K                 &hmr RCTRL L  &hmr RIGHT_SHIFT SEMICOLON  &trans
+&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M        &kp COMMA             &kp DOT       &hmr RSHIFT SLASH           &trans
+                                         &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 ENTER    &lt 1 ENTER  &lt 2 SPACE  &lt 3 K_CONTEXT_MENU
             >;
         };
 

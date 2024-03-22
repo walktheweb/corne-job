@@ -300,7 +300,7 @@
 
         sys_layer {
             bindings = <
-&trans  &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans                &trans
+&trans  &kp GRAVE     &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans                &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &none   &none   &none   &tog 0                &trans
 &trans  &bootloader   &sys_reset    &none         &bt BT_CLR    &bt BT_CLR_ALL    &none   &trans  &trans  &trans  &kp LA(LC(NUMBER_3))  &trans
                                     &trans        &trans        &trans            &trans  &trans  &trans

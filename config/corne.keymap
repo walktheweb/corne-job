@@ -37,16 +37,6 @@
             bindings = <&kp BACKSPACE>;
         };
 
-        as_lshift {
-            bindings = <&kp LSHIFT>;
-            key-positions = <13 14>;
-        };
-
-        lsemicolon_rshift {
-            bindings = <&kp RSHIFT>;
-            key-positions = <21 22>;
-        };
-
         combo_delete {
             bindings = <&kp DELETE>;
             key-positions = <9 8>;
@@ -151,26 +141,6 @@
             key-positions = <16 37>;
         };
 
-        combo_lctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <14 15>;
-        };
-
-        combo_rctrl {
-            bindings = <&kp RCTRL>;
-            key-positions = <21 20>;
-        };
-
-        combo_lalt {
-            bindings = <&kp LALT>;
-            key-positions = <15 16>;
-        };
-
-        combo_ralt {
-            bindings = <&kp RALT>;
-            key-positions = <19 20>;
-        };
-
         combo_win {
             bindings = <&kp LCMD>;
             key-positions = <29 37>;
@@ -178,17 +148,17 @@
 
         combo_2_PgUp {
             bindings = <&kp PG_UP>;
-            key-positions = <31 9>;
+            key-positions = <9 19>;
         };
 
         combo_2_PgDn {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <7 33>;
+            key-positions = <33 19>;
         };
 
         combo_tab {
             bindings = <&kp TAB>;
-            key-positions = <25 26>;
+            key-positions = <13 14>;
         };
 
         combo_l_ak_Layer {
@@ -211,11 +181,6 @@
             key-positions = <28 29>;
         };
 
-        combo_ctrl+alt {
-            bindings = <&ctrlalt1>;
-            key-positions = <19 18>;
-        };
-
         combo_app_context {
             bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <30 31>;
@@ -233,27 +198,27 @@
 
         combo_down {
             bindings = <&kp DOWN>;
-            key-positions = <7 20>;
+            key-positions = <19 32>;
         };
 
         combo_left {
             bindings = <&kp LEFT>;
-            key-positions = <31 20>;
+            key-positions = <20 19>;
         };
 
         combo_right {
             bindings = <&kp RIGHT>;
-            key-positions = <19 32>;
+            key-positions = <20 21>;
         };
 
         combo_home {
             bindings = <&kp HOME>;
-            key-positions = <30 10>;
+            key-positions = <19 10>;
         };
 
         combo_end {
             bindings = <&kp END>;
-            key-positions = <6 34>;
+            key-positions = <19 34>;
         };
     };
 

@@ -213,12 +213,17 @@
 
         combo_home {
             bindings = <&kp HOME>;
-            key-positions = <19 10>;
+            key-positions = <19 11>;
         };
 
         combo_end {
             bindings = <&kp END>;
-            key-positions = <19 34>;
+            key-positions = <19 35>;
+        };
+
+        left_left {
+            bindings = <&kp LEFT>;
+            key-positions = <15 16>;
         };
     };
 

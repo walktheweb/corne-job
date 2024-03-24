@@ -102,16 +102,16 @@
 
         combo_boot_r {
             bindings = <&bootloader>;
-            key-positions = <35 41>;
+            key-positions = <41 34>;
         };
 
         combo_boot_l {
             bindings = <&bootloader>;
-            key-positions = <24 36>;
+            key-positions = <36 25>;
         };
 
         combo_disp_1 {
-            bindings = <&kp LS(LA(LC(LG(F1))))>;
+            bindings = <&kp LA(LG(F1))>;
             key-positions = <1 13 25>;
             layers = <0>;
         };

@@ -29,6 +29,71 @@
             bindings = <&kp LEFT>;
             key-positions = <19 20>;
         };
+
+        combo_right {
+            bindings = <&kp RIGHT>;
+            key-positions = <20 21>;
+        };
+
+        combo_up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <19 8>;
+        };
+
+        combo_down {
+            bindings = <&kp DOWN>;
+            key-positions = <19 32>;
+        };
+
+        combo_home {
+            bindings = <&kp HOME>;
+            key-positions = <19 10>;
+        };
+
+        combo_end {
+            bindings = <&kp END>;
+            key-positions = <19 34>;
+        };
+
+        combo_PgUp {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <19 9>;
+        };
+
+        combo_PgDn {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <19 33>;
+        };
+
+        combo_del {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
+        };
+
+        combo_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <7 8>;
+        };
+
+        combo_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <27 28>;
+        };
+
+        combo_win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <29 37>;
+        };
+
+        combo_layer_3 {
+            bindings = <&lt 3 UNDERSCORE>;
+            key-positions = <39 40>;
+        };
+
+        combo_context {
+            bindings = <&kp K_CONTEXT_MENU>;
+            key-positions = <30 31>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -67,10 +132,10 @@
 
         qwerty_layer {
             bindings = <
-&trans  &kp Q              &kp W         &kp E             &kp R         &kp T          &kp Y        &kp U        &kp I                 &kp O         &kp P                       &trans
-&trans  &hmr LEFT_SHIFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &kp G          &kp H        &kp J        &kp K                 &hmr RCTRL L  &hmr RIGHT_SHIFT SEMICOLON  &trans
-&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B          &kp N        &kp M        &kp COMMA             &kp DOT       &hmr RSHIFT SLASH           &trans
-                                         &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 ENTER    &lt 1 ENTER  &lt 2 SPACE  &lt 3 K_CONTEXT_MENU
+&trans  &kp Q              &kp W         &kp E             &kp R         &kp T             &kp Y        &kp U        &kp I                 &kp O         &kp P                       &trans
+&trans  &hmr LEFT_SHIFT A  &hmr LCTRL S  &hmr LEFT_ALT D   &kp F         &kp G             &kp H        &kp J        &kp K                 &hmr RCTRL L  &hmr RIGHT_SHIFT SEMICOLON  &trans
+&trans  &hmr LEFT_SHIFT Z  &hlt LC(X) X  &hlt LC(C) C      &hlt LC(V) V  &kp B             &kp N        &kp M        &kp COMMA             &kp DOT       &hmr RSHIFT SLASH           &trans
+                                         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT    &lt 1 ENTER  &lt 2 SPACE  &lt 3 K_CONTEXT_MENU
             >;
         };
 

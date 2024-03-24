@@ -115,6 +115,11 @@
             key-positions = <1 13 25>;
             layers = <0>;
         };
+
+        combo_sys_layer {
+            bindings = <&tog 5>;
+            key-positions = <35 11>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

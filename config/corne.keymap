@@ -130,6 +130,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <8 19>;
         };
+
+        combo_win_r {
+            bindings = <&kp RIGHT_WIN>;
+            key-positions = <40 30>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

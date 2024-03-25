@@ -120,6 +120,16 @@
             bindings = <&lt 5 RIGHT_WIN>;
             key-positions = <35 11>;
         };
+
+        combo_ditto {
+            bindings = <&kp LC(GRAVE)>;
+            key-positions = <3 16>;
+        };
+
+        combo_magid_wand {
+            bindings = <&kp GRAVE>;
+            key-positions = <8 19>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

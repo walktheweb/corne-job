@@ -135,6 +135,11 @@
             bindings = <&kp RIGHT_WIN>;
             key-positions = <40 30>;
         };
+
+        combo_win_t {
+            bindings = <&kt LG(T)>;
+            key-positions = <19 30>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

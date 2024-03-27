@@ -157,6 +157,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <4 16>;
         };
+
+        Combo_kp_1 {
+            bindings = <&kp KP_NUMBER_1>;
+            key-positions = <25 13>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

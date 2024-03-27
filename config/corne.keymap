@@ -118,7 +118,7 @@
 
         combo_tog_layer_5_sys_layer {
             bindings = <&lt 5 RIGHT_WIN>;
-            key-positions = <10 34>;
+            key-positions = <35>;
             layers = <5>;
         };
 

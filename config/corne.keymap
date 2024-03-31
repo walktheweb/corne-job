@@ -92,7 +92,7 @@
 
         combo_context {
             bindings = <&kp K_CONTEXT_MENU>;
-            key-positions = <30 31>;
+            key-positions = <31 41>;
         };
 
         combo_esc {

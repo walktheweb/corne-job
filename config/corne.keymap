@@ -207,12 +207,12 @@
             >;
         };
 
-        nav_layer {
+        nav_edit_layer_strong_f {
             bindings = <
-&trans  &none         &none      &none    &none      &none        &kp HOME   &kp BACKSPACE  &kp PAGE_UP    &kp DELETE     &kp END    &trans
-&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp MINUS  &kp EQUAL    &kp LC(Z)  &kp LEFT       &kp DOWN       &kp UP_ARROW   &kp RIGHT  &trans
-&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT    &kp BSLH     &kp LC(Y)  &kp LC(LEFT)   &kp PAGE_DOWN  &kp LC(RIGHT)  &none      &trans
-                                 &trans   &trans     &trans       &trans     &trans         &trans
+&trans  &none  &none  &none   &none   &none     &kp HOME   &kp BACKSPACE  &kp PAGE_UP    &kp DELETE     &kp END    &trans
+&trans  &none  &none  &none   &kp F   &none     &kp LC(Z)  &kp LEFT       &kp DOWN       &kp UP_ARROW   &kp RIGHT  &trans
+&trans  &none  &none  &none   &none   &none     &kp LC(Y)  &kp LC(LEFT)   &kp PAGE_DOWN  &kp LC(RIGHT)  &none      &trans
+                      &trans  &trans  &trans    &trans     &trans         &trans
             >;
         };
 
@@ -234,10 +234,10 @@
             >;
         };
 
-        symbol_strong_J {
+        symbol_keep_typing_strong_J {
             bindings = <
 &trans  &kp N1        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN    &kp LA(LC(UP_ARROW))  &none   &kp UP_ARROW  &kp PAGE_UP    &none     &kp LS(LA(LC(LG(F1))))
-&trans  &kp NUMBER_6  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER      &kp EQUAL           &kp LA(LC(DOWN))      &none   &kp LEFT      &kp RIGHT      &kp HOME  &trans
+&trans  &kp NUMBER_6  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER      &kp EQUAL           &kp LA(LC(DOWN))      &kt J   &kp LEFT      &kp RIGHT      &kp HOME  &trans
 &trans  &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp BSLH            &kp LG(LESS_THAN)     &none   &kp DOWN      &kp PAGE_DOWN  &kp END   &trans
                                             &trans                 &trans         &trans              &trans                &trans  &trans
             >;
@@ -261,7 +261,7 @@
             >;
         };
 
-        numpad_strong_F {
+        numpad_7 {
             bindings = <
 &trans  &kp F1  &kp F2           &kp F3  &kp F4            &kp F5          &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
 &trans  &kp F2  &kp F5           &kp F8  &kp F11           &kp C_MUTE      &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans

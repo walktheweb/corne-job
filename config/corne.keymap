@@ -234,12 +234,12 @@
             >;
         };
 
-        layer_4_strong_J {
+        symbol_strong_J {
             bindings = <
-&trans  &kp N1        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp PLUS     &kp LA(LC(UP_ARROW))  &none   &kp UP_ARROW  &kp PAGE_UP    &none     &kp LS(LA(LC(LG(F1))))
-&trans  &kp NUMBER_6  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp EQUAL    &kp LA(LC(DOWN))      &none   &kp LEFT      &kp RIGHT      &kp HOME  &trans
-&trans  &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT    &kp BSLH     &kp LG(LESS_THAN)     &none   &kp DOWN      &kp PAGE_DOWN  &kp END   &trans
-                                            &trans                 &trans     &trans       &trans                &trans  &trans
+&trans  &kp N1        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN    &kp LA(LC(UP_ARROW))  &none   &kp UP_ARROW  &kp PAGE_UP    &none     &kp LS(LA(LC(LG(F1))))
+&trans  &kp NUMBER_6  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER      &kp EQUAL           &kp LA(LC(DOWN))      &none   &kp LEFT      &kp RIGHT      &kp HOME  &trans
+&trans  &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp BSLH            &kp LG(LESS_THAN)     &none   &kp DOWN      &kp PAGE_DOWN  &kp END   &trans
+                                            &trans                 &trans         &trans              &trans                &trans  &trans
             >;
         };
 

@@ -202,7 +202,7 @@
             bindings = <
 &trans  &kp Q  &kp W  &kp E                     &kp R                 &kp T                        &kp Y        &kp U        &kp I      &kp O    &kp P          &kp LA(LG(LS(LC(F1))))
 &trans  &kp A  &kp S  &kp D                     &lt 1 F               &lt 7 G                      &kp H        &lt 4 J      &kp K      &kp L    &kp SEMICOLON  &trans
-&trans  &kp Z  &kt X  &kp C                     &kp V                 &lt 6 B                      &kp N        &kp M        &kp COMMA  &kp DOT  &kp SLASH      &trans
+&trans  &kp Z  &kp X  &kp C                     &kp V                 &lt 6 B                      &kp N        &kp M        &kp COMMA  &kp DOT  &kp SLASH      &trans
                       &hlt LEFT_CONTROL ESCAPE  &hlt LEFT_ALT DELETE  &hlt LEFT_SHIFT BACKSPACE    &lt 1 ENTER  &lt 2 SPACE  &lt 3 TAB
             >;
         };
@@ -210,7 +210,7 @@
         nav_edit_layer_strong_f {
             bindings = <
 &trans  &none  &none  &none   &none   &none     &kp HOME   &kp BACKSPACE  &none         &kp DELETE     &kp END        &trans
-&trans  &none  &none  &none   &kp F   &none     &kp LC(Z)  &kp LEFT       &kp UP_ARROW  &kp DOWN       &kp PG_UP      &trans
+&trans  &none  &none  &none   &kp F   &none     &kp LC(Z)  &kp LEFT       &kp UP_ARROW  &kp RIGHT      &kp PG_UP      &trans
 &trans  &none  &none  &none   &none   &none     &kp LC(Y)  &kp LC(LEFT)   &kp DOWN      &kp LC(RIGHT)  &kp PAGE_DOWN  &trans
                       &trans  &trans  &trans    &trans     &trans         &trans
             >;

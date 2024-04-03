@@ -65,16 +65,6 @@
             key-positions = <19 33>;
         };
 
-        combo_del {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
-        };
-
-        combo_backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
-        };
-
         combo_underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <27 28>;
@@ -93,11 +83,6 @@
         combo_context {
             bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <31 41>;
-        };
-
-        combo_esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
         };
 
         combo_boot_r {

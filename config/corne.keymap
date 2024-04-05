@@ -114,7 +114,7 @@
 
         combo_magid_wand {
             bindings = <&kp GRAVE>;
-            key-positions = <6 18>;
+            key-positions = <5 17>;
         };
 
         combo_win_r {

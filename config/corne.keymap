@@ -266,10 +266,10 @@
 
         mouse {
             bindings = <
-&trans  &none  &none  &none   &none   &none     &none   &none           &mmv MOVE_UP    &none            &none  &trans
-&trans  &none  &none  &none   &none   &none     &none   &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &none  &trans
-&trans  &none  &none  &none   &none   &none     &none   &none           &mmv MOVE_DOWN  &none            &none  &trans
-                      &trans  &trans  &trans    &trans  &trans          &trans
+&trans  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &trans
+&trans  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &trans
+&trans  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &trans
+                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };

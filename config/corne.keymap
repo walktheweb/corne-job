@@ -187,7 +187,7 @@
             bindings = <
 &trans  &kp Q    &kp W  &kp E                     &kp R                 &kp T                    &kp Y            &kp U        &kp I      &kp O    &kp P          &kp LA(LG(LS(LC(F1))))
 &trans  &lt 7 A  &kp S  &kp D                     &lt 1 F               &kp G                    &kp H            &lt 4 J      &kp K      &kp L    &kp SEMICOLON  &trans
-&trans  &lt 9 Z  &kp X  &kp C                     &kp V                 &lt 6 B                  &kp N            &kp M        &kp COMMA  &kp DOT  &kp SLASH      &trans
+&trans  &kp Z    &kp X  &kp C                     &kp V                 &lt 6 B                  &kp N            &kp M        &kp COMMA  &kp DOT  &kp SLASH      &trans
                         &hlt LEFT_CONTROL ESCAPE  &hlt LEFT_ALT DELETE  &hlt LEFT_SHIFT ENTER    &lt 1 BACKSPACE  &lt 6 SPACE  &lt 3 TAB
             >;
         };
@@ -266,9 +266,9 @@
 
         mouse_strong_z {
             bindings = <
-&trans  &none  &none  &none   &none   &none     &mkp MB1           &mwh SCROLL_UP    &mmv MOVE_UP    &mwh SCROLL_DOWN   &mkp MB2            &trans
-&trans  &none  &none  &none   &kp F   &none     &mmv MOVE_HOR 600  &mmv MOVE_LEFT    &mkp LCLK       &mmv MOVE_RIGHT    &mmv MOVE_HOR -600  &trans
-&trans  &none  &none  &none   &none   &none     &mkp MB3           &mwh SCROLL_LEFT  &mmv MOVE_DOWN  &mwh SCROLL_RIGHT  &mkp MB4            &trans
+&trans  &none  &none  &none   &none   &none     &mkp MB1           &mwh SCROLL_UP    &mmv MOVE_UP    &mwh SCROLL_DOWN   &mkp MB2       &trans
+&trans  &none  &none  &none   &kp F   &none     &mmv MOVE_HOR 600  &mmv MOVE_LEFT    &mkp LCLK       &mmv MOVE_RIGHT    &mmv MOVE_HOR  &trans
+&trans  &none  &none  &none   &none   &none     &mkp MB3           &mwh SCROLL_LEFT  &mmv MOVE_DOWN  &mwh SCROLL_RIGHT  &mkp MB4       &trans
                       &trans  &trans  &trans    &trans             &trans            &trans
             >;
         };

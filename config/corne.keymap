@@ -75,7 +75,7 @@
             key-positions = <29 37>;
         };
 
-        combo_layer_3 {
+        combo_layer_ahk_win_3 {
             bindings = <&lt 3 UNDERSCORE>;
             key-positions = <39 40>;
         };
@@ -210,7 +210,7 @@
             >;
         };
 
-        ahk_layer {
+        ahk_win_layer {
             bindings = <
 &trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))    &kp LA(LC(N8))        &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))          &trans
 &trans  &kp LC(TAB)           &none                 &trans                &trans                &trans                  &kp LG(T)             &kp LS(LG(LEFT))  &kp LA(LC(UP_ARROW))  &kp LS(LG(RIGHT))     &kp LA(LC(MINUS))       &trans

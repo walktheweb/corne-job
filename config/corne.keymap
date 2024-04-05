@@ -246,7 +246,7 @@
             >;
         };
 
-        numpad_strong_G_7 {
+        numpad_strong_A_7 {
             bindings = <
 &trans  &kp F1  &kp F2           &kp F3  &kp F4            &kp F5          &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
 &trans  &kp F2  &kp F5           &kp F8  &kp F11           &kp G           &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans

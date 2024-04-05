@@ -194,10 +194,10 @@
 
         nav_edit_layer_strong_f {
             bindings = <
-&trans  &none  &none  &none   &none   &none     &kp HOME     &kp BACKSPACE     &none         &kp DELETE         &kp END        &trans
-&trans  &none  &none  &none   &kp F   &none     &kp PAGE_UP  &kp LEFT          &kp UP_ARROW  &kp RIGHT          &kp PAGE_DOWN  &trans
-&trans  &none  &none  &none   &none   &none     &kp LC(Z)    &kp RC(RS(LEFT))  &kp DOWN      &kp RC(RS(RIGHT))  &kp RC(Y)      &trans
-                      &trans  &trans  &trans    &trans       &trans            &trans
+&trans  &none  &none  &none   &none            &none     &kp HOME     &kp BACKSPACE     &none         &kp DELETE         &kp END        &trans
+&trans  &none  &none  &none   &kp F            &none     &kp PAGE_UP  &kp LEFT          &kp UP_ARROW  &kp RIGHT          &kp PAGE_DOWN  &trans
+&trans  &none  &none  &none   &kp PRINTSCREEN  &none     &kp LC(Z)    &kp RC(RS(LEFT))  &kp DOWN      &kp RC(RS(RIGHT))  &kp RC(Y)      &trans
+                      &trans  &trans           &trans    &trans       &trans            &trans
             >;
         };
 

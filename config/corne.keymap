@@ -109,7 +109,7 @@
 
         combo_ditto {
             bindings = <&kp LC(GRAVE)>;
-            key-positions = <3 16>;
+            key-positions = <16 4>;
         };
 
         combo_magid_wand {
@@ -131,16 +131,6 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <12 13>;
-        };
-
-        combo_magid_wand_l2 {
-            bindings = <&kp GRAVE>;
-            key-positions = <17 4>;
-        };
-
-        combo_magid_wand_l1 {
-            bindings = <&kp GRAVE>;
-            key-positions = <4 16>;
         };
 
         Combo_nump_1 {

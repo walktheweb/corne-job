@@ -220,10 +220,10 @@
 
         symbol_keep_typing_strong_J {
             bindings = <
-&trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN    &kp LA(LC(UP_ARROW))  &none   &kp UP_ARROW  &kp PAGE_UP    &none     &kp LS(LA(LC(LG(F1))))
-&trans  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER      &kp EQUAL           &kp LA(LC(DOWN))      &kt J   &kp LEFT      &kp RIGHT      &kp HOME  &trans
-&trans  &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp BSLH            &kp LG(LESS_THAN)     &none   &kp DOWN      &kp PAGE_DOWN  &kp END   &trans
-                                         &trans                 &trans         &trans              &trans                &trans  &trans
+&trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp BACKSLASH       &none   &none   &none   &none  &none  &kp LS(LA(LC(LG(F1))))
+&trans  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER         &kp EQUAL           &none   &kt J   &none   &none  &none  &trans
+&trans  &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN    &none   &none   &none   &none  &none  &trans
+                                         &trans                 &trans            &trans              &trans  &trans  &trans
             >;
         };
 

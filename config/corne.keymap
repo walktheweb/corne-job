@@ -202,18 +202,18 @@
 
         media_layer_2 {
             bindings = <
-&trans  &kp F1  &kp F2           &kp F3  &kp F4            &kp F5          &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F9     &kp F10  &trans
-&trans  &kp F2  &kp F5           &kp F8  &kp F11           &kp C_MUTE      &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_NEXT       &none      &kp F11  &trans
-&trans  &none   &kp PRINTSCREEN  &kp F9  &kp K_PLAY_PAUSE  &kp C_VOL_DN    &none           &kp K_UNDO         &kp K_REDO       &kp K_CUT  &kp F12  &trans
-                                 &trans  &trans            &trans          &trans          &trans             &trans
+&trans  &none  &none  &none   &none   &none     &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F9     &kp F10  &trans
+&trans  &none  &none  &none   &none   &none     &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_NEXT       &none      &kp F11  &trans
+&trans  &none  &none  &none   &none   &none     &none           &kp K_UNDO         &kp K_REDO       &kp K_CUT  &kp F12  &trans
+                      &trans  &trans  &trans    &trans          &trans             &trans
             >;
         };
 
         ahk_win_layer {
             bindings = <
 &trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &kp LA(LC(NUMBER_5))    &kp LA(LC(NUMBER_6))  &kt LA(LC(N7))    &kp LA(LC(N8))        &kp LA(LC(NUMBER_9))  &kp LA(LC(N0))          &trans
-&trans  &kp LC(TAB)           &none                 &trans                &trans                &trans                  &kp LG(T)             &kp LS(LG(LEFT))  &kp LA(LC(UP_ARROW))  &kp LS(LG(RIGHT))     &kp LA(LC(MINUS))       &trans
-&trans  &kp LC(W)             &kp LG(F4)            &kp LG(T)             &trans                &trans                  &kp LA(F4)            &none             &kp LA(LC(DOWN))      &none                 &hmr RIGHT_SHIFT SLASH  &trans
+&trans  &none                 &none                 &trans                &trans                &trans                  &kp LG(T)             &kp LS(LG(LEFT))  &kp LA(LC(UP_ARROW))  &kp LS(LG(RIGHT))     &kp LA(LC(MINUS))       &trans
+&trans  &none                 &none                 &none                 &trans                &trans                  &kp LA(F4)            &none             &kp LA(LC(DOWN))      &none                 &hmr RIGHT_SHIFT SLASH  &trans
                                                     &trans                &trans                &trans                  &trans                &trans            &trans
             >;
         };
@@ -238,19 +238,19 @@
 
         f-layer_6 {
             bindings = <
-&trans  &kp F1  &kp F2           &kp F3  &kp F4            &kp F5          &none   &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp F2  &kp F5           &kp F8  &kp F11           &kp C_MUTE      &none   &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&trans  &kp F3  &kp PRINTSCREEN  &kp F9  &kp K_PLAY_PAUSE  &kp C_VOL_DN    &none   &kp F1  &kp F2  &kp F3  &kp F12  &trans
-                                 &trans  &trans            &trans          &trans  &trans  &trans
+&trans  &none  &none  &none   &none   &none     &none   &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &none  &none  &none   &none   &none     &none   &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &none  &none  &none   &none   &none     &none   &kp F1  &kp F2  &kp F3  &kp F12  &trans
+                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         numpad_strong_A_7 {
             bindings = <
-&trans  &kp F1  &kp F2           &kp F3  &kp F4            &kp F5          &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&trans  &kp F2  &kp F5           &kp F8  &kp F11           &kp G           &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
-&trans  &none   &kp PRINTSCREEN  &kp F9  &kp K_PLAY_PAUSE  &kp C_VOL_DN    &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &trans
-                                 &trans  &trans            &trans          &trans     &trans        &trans
+&trans  &none  &none            &none   &none   &none     &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
+&trans  &kp A  &none            &none   &none   &none     &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
+&trans  &none  &kp PRINTSCREEN  &none   &none   &none     &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &trans
+                                &trans  &trans  &trans    &trans     &trans        &trans
             >;
         };
 

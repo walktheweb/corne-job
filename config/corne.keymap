@@ -137,6 +137,11 @@
             bindings = <&kp KP_NUMBER_1>;
             key-positions = <25 13>;
         };
+
+        Mute_Teams_CSM {
+            bindings = <&kp LC(LS(M))>;
+            key-positions = <34 22 33>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

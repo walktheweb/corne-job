@@ -142,6 +142,11 @@
             bindings = <&kp LC(LS(M))>;
             key-positions = <34 22 33>;
         };
+
+        toggle_layer_Num_7 {
+            bindings = <&tog 7>;
+            key-positions = <34 22>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

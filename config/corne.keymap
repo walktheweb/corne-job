@@ -133,7 +133,7 @@
             key-positions = <12 13>;
         };
 
-        Combo_nump_1 {
+        Combo_nump_1_Step1 {
             bindings = <&kp KP_NUMBER_1>;
             key-positions = <25 13>;
         };

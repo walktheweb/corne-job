@@ -147,6 +147,11 @@
             bindings = <&tog 7>;
             key-positions = <34 22>;
         };
+
+        F24_Toets {
+            bindings = <&kp F24>;
+            key-positions = <1 13>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };

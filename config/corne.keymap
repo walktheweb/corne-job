@@ -138,19 +138,14 @@
             key-positions = <25 13>;
         };
 
-        Mute_Teams_CSM {
-            bindings = <&kp LC(LS(M))>;
-            key-positions = <34 22 33>;
-        };
-
         toggle_layer_Num_7 {
             bindings = <&tog 7>;
             key-positions = <34 22>;
         };
 
-        F24_Toets {
+        F24-key_ahk_mute_teams {
             bindings = <&kp F24>;
-            key-positions = <1 13>;
+            key-positions = <33 34 22>;
         };
     };
 

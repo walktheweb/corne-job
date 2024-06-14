@@ -76,7 +76,7 @@
         };
 
         combo_layer_ahk_win_3 {
-            bindings = <&lt 3 UNDERSCORE>;
+            bindings = <&lt 5 UNDERSCORE>;
             key-positions = <39 40>;
         };
 
@@ -102,9 +102,9 @@
         };
 
         combo_tog_layer_5_sys_layer {
-            bindings = <&lt 5 RIGHT_WIN>;
+            bindings = <&lt 6 RIGHT_WIN>;
             key-positions = <35>;
-            layers = <5>;
+            layers = <6>;
         };
 
         combo_ditto {
@@ -125,7 +125,7 @@
         combo_disp_1_num_layer {
             bindings = <&kp LA(LG(F24))>;
             key-positions = <1 13 25>;
-            layers = <1>;
+            layers = <4>;
         };
 
         combo_tab {
@@ -139,7 +139,7 @@
         };
 
         toggle_layer_Num_7 {
-            bindings = <&tog 7>;
+            bindings = <&tog 8>;
             key-positions = <34 22>;
         };
 
@@ -195,9 +195,27 @@
         qwerty_layer {
             bindings = <
 &kp F24  &kp Q    &kp W  &kp E                     &kp R                 &kp T                        &kp Y        &kp U        &kp I      &kp O    &kp P          &kp LA(LG(LS(LC(F1))))
-&trans   &lt 7 A  &kp S  &kp D                     &lt 8 F               &kp G                        &kp H        &lt 4 J      &kp K      &kp L    &kp SEMICOLON  &trans
-&kp F23  &kp Z    &kp X  &kp C                     &kp V                 &lt 6 B                      &kp N        &kp M        &kp COMMA  &kp DOT  &kp SLASH      &trans
-                         &hlt LEFT_CONTROL ESCAPE  &hlt LEFT_ALT DELETE  &hlt LEFT_SHIFT BACKSPACE    &lt 8 ENTER  &lt 6 SPACE  &lt 2 TAB
+&trans   &lt 8 A  &kp S  &kp D                     &lt 2 F               &kp G                        &kp H        &lt 3 J      &kp K      &kp L    &kp SEMICOLON  &trans
+&kp F23  &kp Z    &kp X  &kp C                     &kp V                 &lt 7 B                      &kp N        &kp M        &kp COMMA  &kp DOT  &kp SLASH      &trans
+                         &hlt LEFT_CONTROL ESCAPE  &hlt LEFT_ALT DELETE  &hlt LEFT_SHIFT BACKSPACE    &lt 2 ENTER  &lt 7 SPACE  &lt 4 TAB
+            >;
+        };
+
+        symbol_keep_typing_strong_J {
+            bindings = <
+&trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp BACKSLASH       &none   &none   &none   &none  &none  &kp LS(LA(LC(LG(F1))))
+&trans  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER         &kp EQUAL           &none   &kt J   &none   &none  &none  &trans
+&trans  &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN    &none   &none   &none   &none  &none  &trans
+                                         &trans                 &trans            &trans              &trans  &trans  &trans
+            >;
+        };
+
+        fast_edit_strong_f {
+            bindings = <
+&trans  &none      &none      &none      &none   &none             &kp HOME   &kp BACKSPACE  &none         &kp DELETE     &kp END        &trans
+&trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F   &none             &kp LC(Z)  &kp LEFT       &kp UP_ARROW  &kp RIGHT      &kp PG_UP      &trans
+&trans  &none      &none      &none      &none   &kp C_AC_PRINT    &kp LC(Y)  &kp LC(LEFT)   &kp DOWN      &kp LC(RIGHT)  &kp PAGE_DOWN  &trans
+                              &trans     &trans  &trans            &trans     &trans         &trans
             >;
         };
 
@@ -228,15 +246,6 @@
             >;
         };
 
-        symbol_keep_typing_strong_J {
-            bindings = <
-&trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp BACKSLASH       &none   &none   &none   &none  &none  &kp LS(LA(LC(LG(F1))))
-&trans  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER         &kp EQUAL           &none   &kt J   &none   &none  &none  &trans
-&trans  &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN    &none   &none   &none   &none  &none  &trans
-                                         &trans                 &trans            &trans              &trans  &trans  &trans
-            >;
-        };
-
         sys_layer {
             bindings = <
 &trans  &kp GRAVE     &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &kp LS(LA(LC(LG(F23))))  &trans
@@ -261,15 +270,6 @@
 &trans  &kp A  &none            &none   &none   &none     &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
 &trans  &none  &kp PRINTSCREEN  &none   &none   &none     &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
                                 &trans  &trans  &trans    &trans     &trans        &trans
-            >;
-        };
-
-        fast_edit_strong_f {
-            bindings = <
-&trans  &none      &none      &none      &none   &none             &kp HOME   &kp BACKSPACE  &none         &kp DELETE     &kp END        &trans
-&trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp F   &none             &kp LC(Z)  &kp LEFT       &kp UP_ARROW  &kp RIGHT      &kp PG_UP      &trans
-&trans  &none      &none      &none      &none   &kp C_AC_PRINT    &kp LC(Y)  &kp LC(LEFT)   &kp DOWN      &kp LC(RIGHT)  &kp PAGE_DOWN  &trans
-                              &trans     &trans  &trans            &trans     &trans         &trans
             >;
         };
     };
